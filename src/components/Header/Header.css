@@ -1,6 +1,30 @@
 .header{
-    background-color: var(--primary);
+    background-color: var(--darkerBg);
     font-size:larger;
+
+    width: max-content;
+    height: 100%;
+    
+    position: absolute;
+}
+
+.header{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.header li{
+    margin-right: 25px;
+    color: var(--text);
+    inline-size: auto;
+    width: 100%;
+    }
+    
+.header li:hover{
+    background-color: var(--headerItemBg); 
+    cursor: pointer;
 }
 
 .navLink{
