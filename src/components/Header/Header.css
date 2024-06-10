@@ -1,31 +1,47 @@
-.header{
+.header {
     background-color: var(--darkerBg);
-    font-size:larger;
+    opacity: 0.6;
 
-    width: max-content;
-    height: 100%;
-    
-    position: absolute;
-}
-
-.header{
     width: 200px;
+    height: 100%;
+    padding-left: 0;
+
+    position: fixed;
+
     display: flex;
-    flex-wrap: wrap;
-    align-items:center;
+    flex-direction: column;
+}
+.header:hover {
+    opacity: 1;
 }
 
-.header li{
-    margin-right: 25px;
+.header .tab {
+    display: flex; /* Added */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally (optional if needed) */
+    font-size: 24px;
+    border-radius: 5%;
     color: var(--text);
-    inline-size: auto;
-    width: 100%;
-    }
-    
-.header li:hover{
-    background-color: var(--headerItemBg); 
-    cursor: pointer;
+    height: 100%;
 }
+
+.header .tab p {
+    margin: 0; /* Ensure there's no default margin on p */
+}
+
+.header .tab:hover {
+    background-color: var(--Bg); 
+    cursor: pointer;
+    font-size: 32px;
+    box-shadow: 2px 2px 5px black;
+}
+
 
 .navLink{
+}
+
+@media screen and (max-width: 500px){
+    .header{
+        display: none;
+    }
 }

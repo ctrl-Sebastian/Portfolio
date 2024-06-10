@@ -2,13 +2,13 @@ import './Header.css'
 
 function Header() {
   return (
-      <ul className='header'>
-        <li>Home</li>
-        <li>React</li>
-        <li>Unity</li>
-        <li>3D Modeling</li>
-        <li>Contact me</li>
-      </ul>
+      <div className='header'>
+        <div className='tab'><p>Home</p></div>
+        <div className='tab'><p>React</p></div>
+        <div className='tab'><p>Unity</p></div>
+        <div className='tab'><p>3D Modedivng</p></div>
+        <div className='tab'><p>Contact me</p></div>
+      </div>
     
   );
 }

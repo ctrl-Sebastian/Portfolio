@@ -1,0 +1,19 @@
+.section-react h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.react-project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+.card{
+    background-color: var(--darkerBg);
+    width: 300px;
+}
+
+@media screen and (max-width: 500px){
+
+}

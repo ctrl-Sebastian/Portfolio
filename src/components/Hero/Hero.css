@@ -1,0 +1,63 @@
+.hero-bg{
+    padding-left: 200px;
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.hero-bg h2{
+    color: var(--secondary);
+    }
+    
+.hero-bg span{
+    color: var(--secondary);
+    position: absolute;
+    bottom: 30px;
+}
+
+.hero-bg span img{
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 40%;
+    bottom: -30px;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: -30px;
+    }
+    50% {
+      bottom: -10px;
+    }
+  }
+
+.hero-bg .socials{
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    vertical-align: middle;
+
+    gap: 35px;
+}
+
+.hero-bg .socials img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    .hero-bg{
+        padding-left: 0px;
+    }
+}

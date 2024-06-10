@@ -1,3 +1,9 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
 body {
   --text: #aed1d1;
   --Bg: #234343;
@@ -12,12 +18,14 @@ body {
   font-weight: 400;
   
   color: var(--text);
-  background-color: var(--Bg);
+
+  background:linear-gradient(to bottom, var(--darkerBg), var(--Bg));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -37,4 +45,23 @@ h1 {
 
 ul{
   list-style-type: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--darkerBg);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darkerBg);
 }
