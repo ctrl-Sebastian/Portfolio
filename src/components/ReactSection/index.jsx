@@ -1,12 +1,12 @@
 import React from 'react'
 import {Button, Card, CardBody, CardImg, Badge } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import apolowebsite from '../../imgs/apolowebsite.png'
-import hospitalwebsite from '../../imgs/hospital.jpeg'
-import MongoDB from '../../imgs/MongoDB.svg'
-import alurageekwebsite from '../../imgs/alurageekwebsite.jpeg'
-import apreciacionwebsite from '../../imgs/apreciacionwebsite.png'
-import HrExtras from '../../imgs/HrExtras.png'
+import MongoDB from '../../imgs/icons/MongoDB.svg'
+import apolowebsite from '../../imgs/websites/apolowebsite.png'
+import hospitalwebsite from '../../imgs/websites/hospital.jpeg'
+import alurageekwebsite from '../../imgs/websites/alurageekwebsite.jpeg'
+import apreciacionwebsite from '../../imgs/websites/apreciacionwebsite.png'
+import HrExtras from '../../imgs/websites/HrExtras.png'
 
 
 import './ReactSection.css'

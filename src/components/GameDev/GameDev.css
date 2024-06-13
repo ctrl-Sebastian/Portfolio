@@ -1,6 +1,20 @@
-.carousel-gamedev img{
+
+#carousel-gamedev img{
     height: 700px;
 }
+#carousel-gamedev .card{
+    background-color: #222;
+    color: var(--text);
+}
 
-.carousel-gamedev:hover{
+#carousel-gamedev .carousel-item img{
+    position: relative;
+    filter: brightness(0.6);
+}
+
+#carousel-gamedev .carousel-item iframe{
+    opacity: 1;
+    position: absolute;
+    top: 35%;
+    left: 28%;
 }

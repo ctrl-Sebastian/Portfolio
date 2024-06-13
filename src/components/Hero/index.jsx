@@ -1,10 +1,10 @@
 import './Hero.css'
-import github from '../../imgs/github.svg'
-import Instagram from '../../imgs/Instagram.svg'
-import itchio from '../../imgs/itchio.svg'
-import LI from '../../imgs/LI.svg'
-import sketchfab from '../../imgs/sketchfab.svg'
-import downarrow from '../../imgs/downarrow.svg'
+import github from '../../imgs/icons/github.svg'
+import Instagram from '../../imgs/icons/Instagram.svg'
+import itchio from '../../imgs/icons/itchio.svg'
+import LI from '../../imgs/icons/LI.svg'
+import sketchfab from '../../imgs/icons/sketchfab.svg'
+import downarrow from '../../imgs/icons/downarrow.svg'
 
 function Hero() {
   return (
