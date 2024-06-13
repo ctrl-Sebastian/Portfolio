@@ -31,6 +31,14 @@
     font-size: medium;
 }
 
+#card  .card-footer{
+    background-color: var(--cardTitleBg);
+    text-align: left;
+}
+#card .card-footer:nth-child(even){
+    margin-left: 500px;
+}
+
 @media screen and (max-width: 500px){
 
 }

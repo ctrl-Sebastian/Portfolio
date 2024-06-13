@@ -24,9 +24,9 @@ function ReactSection() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </Card.Text>
-            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://www.apolo27.com/' variant='dark'><FontAwesomeIcon icon="fa-regular fa-globe" /> Visitar</Button>
           </CardBody>
-          <Card.Footer>
+          <Card.Footer className='card-footer'>
             <Badge>
               <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
             </Badge>
@@ -41,7 +41,7 @@ function ReactSection() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </Card.Text>
-            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://github.com/ctrl-Sebastian/Hospital' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
 
           <Card.Footer>
@@ -62,7 +62,7 @@ function ReactSection() {
               Some quick example text to build on the card title and make up the
               bulk of the card&apos;s content.
             </Card.Text>
-            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://alura-geek-weld.vercel.app/' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
 
           <Card.Footer>
@@ -82,7 +82,7 @@ function ReactSection() {
               bulk of the card&apos;s content.
             </Card.Text>
 
-            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
             </CardBody>
             <Card.Footer>
               <Badge bg='danger'>
@@ -108,7 +108,6 @@ function ReactSection() {
               bulk of the card&apos;s content.
             </Card.Text>
 
-            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
 
           </CardBody>
           <Card.Footer>
