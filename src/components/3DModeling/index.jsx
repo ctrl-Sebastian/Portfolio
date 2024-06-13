@@ -7,7 +7,8 @@ function ModelingSection() {
     <section className='section-react'>
       <h1>3D Modeling</h1>
       <div className='react-project-list'>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -15,7 +16,8 @@ function ModelingSection() {
               Ipsa nemo quo assumenda illo.</CardText>
           </CardBody>
         </Card>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -23,7 +25,8 @@ function ModelingSection() {
               Ipsa nemo quo assumenda illo.</CardText>
           </CardBody>
         </Card>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -31,7 +34,8 @@ function ModelingSection() {
               Ipsa nemo quo assumenda illo.</CardText>
           </CardBody>
         </Card>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -39,7 +43,8 @@ function ModelingSection() {
               Ipsa nemo quo assumenda illo.</CardText>
           </CardBody>
         </Card>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -47,7 +52,8 @@ function ModelingSection() {
               Ipsa nemo quo assumenda illo.</CardText>
           </CardBody>
         </Card>
-        <Card>
+
+        <Card id='card'>
           <CardImg src={bg1}></CardImg>
           <CardBody>
             <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 

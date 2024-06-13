@@ -12,7 +12,7 @@ import Modeling from './components/3DModeling'
 function App() {
   return (
     <>
-      {<Header />}
+      <Header />
       <Hero />
       <Container id='container-main'>
         <ReactSection />

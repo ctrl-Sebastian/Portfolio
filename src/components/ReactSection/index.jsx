@@ -1,60 +1,127 @@
+import React from 'react'
+import {Button, Card, CardBody, CardImg, Badge } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import apolowebsite from '../../imgs/apolowebsite.png'
+import hospitalwebsite from '../../imgs/hospital.jpeg'
+import MongoDB from '../../imgs/MongoDB.svg'
+import alurageekwebsite from '../../imgs/alurageekwebsite.jpeg'
+import apreciacionwebsite from '../../imgs/apreciacionwebsite.png'
+import HrExtras from '../../imgs/HrExtras.png'
+
+
 import './ReactSection.css'
-import { Card, CardBody, CardImg, CardText } from 'react-bootstrap'
-import bg1 from '../../imgs/bg1.jpg'
 
 function ReactSection() {
   return (
     <section className='section-react'>
-      <h1>React Projets</h1>
+      <h1>Web & App Projets</h1>
       <div className='react-project-list'>
-        <Card>
-          <CardImg src={bg1}></CardImg>
+        <Card id='card'>
+          <CardImg src={apolowebsite}></CardImg>
           <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
+            <Card.Title>Apolo27&apos;s Official Website</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card&apos;s content.
+            </Card.Text>
+            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
+          <Card.Footer>
+            <Badge>
+              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+            </Badge>
+          </Card.Footer>
         </Card>
-        <Card>
-          <CardImg src={bg1}></CardImg>
+
+        <Card id='card'>
+          <CardImg src={hospitalwebsite}></CardImg>
           <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
+            <Card.Title>Hospital Management Web App</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card&apos;s content.
+            </Card.Text>
+            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
+
+          <Card.Footer>
+            <Badge>
+              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+            </Badge>
+            <Badge bg='secondary'>
+              <img src={MongoDB} width={75}></img>
+            </Badge>
+          </Card.Footer>
         </Card>
-        <Card>
-          <CardImg src={bg1}></CardImg>
+
+        <Card id='card'>
+          <CardImg src={alurageekwebsite}></CardImg>
           <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
+            <Card.Title>Alura Geek Online Store</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card&apos;s content.
+            </Card.Text>
+            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
+
+          <Card.Footer>
+            <Badge>
+              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+            </Badge>
+          </Card.Footer>
         </Card>
-        <Card>
-          <CardImg src={bg1}></CardImg>
+
+        <Card id='card'>
+          <CardImg src={apreciacionwebsite}></CardImg>
           <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
-          </CardBody>
+            <Card.Title>Arts Appreciation portfolio</Card.Title>
+
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card&apos;s content.
+            </Card.Text>
+
+            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            </CardBody>
+            <Card.Footer>
+              <Badge bg='danger'>
+                <FontAwesomeIcon icon="fa-brands fa-html5" size='md'/>
+              </Badge>
+              <Badge>
+                <FontAwesomeIcon icon="fa-brands fa-css3-alt" size='md'/>
+              </Badge>
+              <Badge bg='dark'>
+                <FontAwesomeIcon icon="fa-brands fa-js" size='md' color='yellow'/>
+              </Badge>
+            </Card.Footer>
+
         </Card>
-        <Card>
-          <CardImg src={bg1}></CardImg>
+
+        <Card id='card'>
+          <CardImg src={HrExtras}></CardImg>
           <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
+            <Card.Title>Calc. Horas Extras</Card.Title>
+
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card&apos;s content.
+            </Card.Text>
+
+            <Button variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+
           </CardBody>
+          <Card.Footer>
+            <Badge bg='dark'>
+              <FontAwesomeIcon icon="fa-brands fa-python" size='md' color='yellow'/>
+            </Badge>
+            <Badge>
+              <FontAwesomeIcon icon="fa-brands fa-css3-alt" size='md'/>
+            </Badge>
+          </Card.Footer>
+
         </Card>
-        <Card>
-          <CardImg src={bg1}></CardImg>
-          <CardBody>
-            <CardText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Error commodi expedita voluptate ipsum ad repellat, quas quam sit temporibus esse perferendis reiciendis assumenda reprehenderit iure. 
-              Ipsa nemo quo assumenda illo.</CardText>
-          </CardBody>
-        </Card>
+
       </div>
     </section>
   )

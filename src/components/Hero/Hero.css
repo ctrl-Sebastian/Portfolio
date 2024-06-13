@@ -1,4 +1,8 @@
 .hero-bg{
+    background-image: url('../../imgs/bg1alt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding-left: 200px;
     /* Sizing */
     width: 100vw;
@@ -9,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
 
 }

@@ -3,14 +3,19 @@
   text-align: center;
   
 }
+html{
+  scroll-snap-type: y mandatory;
+}
 
 body {
   --text: #aed1d1;
   --Bg: #234343;
   --darkerBg: #172e2e;
+  --cardBg: #050a0a;
   --headerItemBg: #255454;
   --primary: #64dbdb;
   --secondary: #e2b3de;
+  --darkerSecondary: #b17ead;
   --accent: #00ffff;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -26,6 +31,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+}
+
+section{
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  scroll-padding-top: 100px;
+  scroll-padding-bottom: 100px;
+  
+  /*
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  */
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 
 a {
@@ -63,5 +95,6 @@ ul{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--darkerBg);
+  background: var(--darkerSecondary);
+  cursor: pointer;
 }

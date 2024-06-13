@@ -1,3 +1,6 @@
+.section-react {
+}
+
 .section-react h1{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -9,9 +12,23 @@
     justify-content: space-evenly;
     gap: 25px;
 }
-.card{
-    background-color: var(--darkerBg);
+#card{
+    background-color: var(--cardBg);
+    color: var(--text);
     width: 300px;
+    text-align: left;
+}
+#card:hover{
+    scale: 1.05;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+#card :nth-child(3){
+    text-align: center;
+}
+#card .badge{
+    font-size: medium;
 }
 
 @media screen and (max-width: 500px){
