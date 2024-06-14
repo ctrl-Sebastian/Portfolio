@@ -1,6 +1,6 @@
 import './GameDev.css'
 import React from 'react'
-import {Button, Carousel} from 'react-bootstrap'
+import {Button, Card, Carousel} from 'react-bootstrap'
 import flappybee from '../../imgs/gamedev/flappybee.png'
 import palmonte from "../../imgs/gamedev/palmonte.png";
 import polaritypanic from "../../imgs/gamedev/polaritypanic.png";
@@ -15,7 +15,15 @@ function GameDevSection() {
     <Carousel fade id='carousel-gamedev'>
       <Carousel.Item>
         <img src={roversimulation}></img>
-        <iframe src="https://itch.io/embed/2319119?linkback=true&amp;dark=true" width="552" height="167"><a href="https://ctrl-sebastian.itch.io/rover-simulation">Rover Simulation by ctrl-Sebastian</a></iframe>      </Carousel.Item>
+        <iframe src="https://itch.io/embed/2319119?linkback=true&amp;dark=true" width="552" height="167"><a href="https://ctrl-sebastian.itch.io/rover-simulation">NASA HERC Simulation by ctrl-Sebastian</a></iframe>        
+        <Card>
+          <Card.Title>Title</Card.Title>
+          <Card.Body>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </Card.Body>
+        </Card>
+      </Carousel.Item>
+
 
       <Carousel.Item>
         <img src={ratspotting}></img>

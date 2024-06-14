@@ -18,3 +18,9 @@
     top: 35%;
     left: 28%;
 }
+#carousel-gamedev .carousel-item .card{
+    opacity: 1;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}

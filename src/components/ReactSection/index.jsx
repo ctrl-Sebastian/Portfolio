@@ -48,7 +48,7 @@ function ReactSection() {
             <Badge>
               <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
             </Badge>
-            <Badge bg='secondary'>
+            <Badge bg='dark'>
               <img src={MongoDB} width={75}></img>
             </Badge>
           </Card.Footer>
@@ -114,8 +114,8 @@ function ReactSection() {
             <Badge bg='dark'>
               <FontAwesomeIcon icon="fa-brands fa-python" size='md' color='yellow'/>
             </Badge>
-            <Badge>
-              <FontAwesomeIcon icon="fa-brands fa-css3-alt" size='md'/>
+            <Badge bg='dark'>
+              Tkinter
             </Badge>
           </Card.Footer>
 

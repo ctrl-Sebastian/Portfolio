@@ -24,6 +24,10 @@
     cursor: pointer;
 }
 
+#card .card-text{
+    color: var(--secondary);
+}
+
 #card :nth-child(3){
     text-align: center;
 }
@@ -34,6 +38,8 @@
 #card  .card-footer{
     background-color: var(--cardTitleBg);
     text-align: left;
+    display: flex;
+    justify-content: space-evenly;
 }
 #card .card-footer:nth-child(even){
     margin-left: 500px;
