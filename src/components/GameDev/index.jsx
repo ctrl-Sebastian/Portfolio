@@ -10,7 +10,7 @@ import roversimulation from "../../imgs/gamedev/roversimulation.png";
 
 function GameDevSection() {
   return (
-    <section className='section-react'>
+    <section id='gamedev' className='section-react'>
     <h1>Game Dev projects</h1>
     <Carousel fade id='carousel-gamedev'>
       <Carousel.Item>
@@ -42,7 +42,7 @@ function GameDevSection() {
 
       </Carousel.Item>
     </Carousel>
-    <Button variant='link' id='vermas' href='https://sketchfab.com/sebastianMMS'>Ver mas</Button>
+    <Button variant='link' id='vermas' href='https://ctrl-sebastian.itch.io/'>Ver mas</Button>
 
   </section>
   )

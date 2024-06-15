@@ -13,7 +13,7 @@ import './ReactSection.css'
 
 function ReactSection() {
   return (
-    <section className='section-react'>
+    <section id='webapps' className='section-react'>
       <h1>Web & App Projets</h1>
       <div className='react-project-list'>
         <Card id='card'>

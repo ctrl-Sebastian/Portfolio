@@ -4,7 +4,7 @@ import {Button} from 'react-bootstrap'
 
 function ModelingSection() {
   return (
-    <section className='section-react'>
+    <section id='modeling' className='section-react'>
       <h1>3D Modeling</h1>
       <div className='models-list'>
         <Masonry columns={{ xs: 1, sm: 2, md: 3 }}>

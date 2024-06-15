@@ -8,7 +8,7 @@ import downarrow from '../../imgs/icons/downarrow.svg'
 
 function Hero() {
   return (
-    <section className='hero-bg'>
+    <section id='hero' className='hero-bg'>
         <div>
             <h1>Sebastian Marrera</h1>
             <h2>React Developer | Unity Developer</h2>
