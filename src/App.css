@@ -3,6 +3,22 @@
     margin-top: 100px;
 }
 
+
+#vermas{
+    margin: 25px;
+    color: black;
+    border: 2px black solid;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 24px;
+}
+
+#vermas:hover{
+    background-color: var(--secondary);
+
+}
+
 @media screen and (max-width: 500px){
     #container-main{
         padding-left: 0px;

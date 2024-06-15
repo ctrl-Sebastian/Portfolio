@@ -16,12 +16,6 @@ function GameDevSection() {
       <Carousel.Item>
         <img src={roversimulation}></img>
         <iframe src="https://itch.io/embed/2319119?linkback=true&amp;dark=true" width="552" height="167"><a href="https://ctrl-sebastian.itch.io/rover-simulation">NASA HERC Simulation by ctrl-Sebastian</a></iframe>        
-        <Card>
-          <Card.Title>Title</Card.Title>
-          <Card.Body>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-          </Card.Body>
-        </Card>
       </Carousel.Item>
 
 
@@ -48,6 +42,8 @@ function GameDevSection() {
 
       </Carousel.Item>
     </Carousel>
+    <Button variant='link' id='vermas' href='https://sketchfab.com/sebastianMMS'>Ver mas</Button>
+
   </section>
   )
 }

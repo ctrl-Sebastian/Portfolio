@@ -21,14 +21,13 @@ function ReactSection() {
           <CardBody>
             <Card.Title>Apolo27&apos;s Official Website</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
+              Página oficial del equipo Apolo 27 para el NASA HERC 2024.
             </Card.Text>
-            <Button href='https://www.apolo27.com/' variant='dark'><FontAwesomeIcon icon="fa-regular fa-globe" /> Visitar</Button>
+            <Button href='https://www.apolo27.com/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
           </CardBody>
           <Card.Footer className='card-footer'>
             <Badge>
-              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+              <FontAwesomeIcon icon="fa-brands fa-react"/>  React
             </Badge>
           </Card.Footer>
         </Card>
@@ -38,15 +37,14 @@ function ReactSection() {
           <CardBody>
             <Card.Title>Hospital Management Web App</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
+              Aplicación Web simple para gestionar hospital. (CRUD)
             </Card.Text>
             <Button href='https://github.com/ctrl-Sebastian/Hospital' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
           </CardBody>
 
           <Card.Footer>
             <Badge>
-              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+              <FontAwesomeIcon icon="fa-brands fa-react"/>  React
             </Badge>
             <Badge bg='dark'>
               <img src={MongoDB} width={75}></img>
@@ -59,30 +57,41 @@ function ReactSection() {
           <CardBody>
             <Card.Title>Alura Geek Online Store</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
+              Página Web de E-Commerce. (CRUD)
             </Card.Text>
-            <Button href='https://alura-geek-weld.vercel.app/' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+
+            <div  className='project-buttons'>
+
+            <Button href='https://alura-geek-weld.vercel.app/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
+            <Button href='https://github.com/ctrl-Sebastian/AluraGeek-E-Commerce-' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            </div>
+
           </CardBody>
 
           <Card.Footer>
             <Badge>
-              <FontAwesomeIcon icon="fa-brands fa-react" size=''/>  React
+              <FontAwesomeIcon icon="fa-brands fa-react" />  React
             </Badge>
           </Card.Footer>
         </Card>
 
+
+        
+        
         <Card id='card'>
           <CardImg src={apreciacionwebsite}></CardImg>
           <CardBody>
             <Card.Title>Arts Appreciation portfolio</Card.Title>
 
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
+              Página web para publicar bitácora sobre temas de apreciación de las artes.
             </Card.Text>
 
-            <Button href='https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <div className='project-buttons'>
+              <Button href='https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
+              <Button href='https://github.com/ctrl-Sebastian/Apreciacion-de-las-artes-1' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            </div>
+
             </CardBody>
             <Card.Footer>
               <Badge bg='danger'>
@@ -104,10 +113,10 @@ function ReactSection() {
             <Card.Title>Calc. Horas Extras</Card.Title>
 
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card&apos;s content.
+              Pequeña calculadora hecha con python y Tkinter para negocio.
             </Card.Text>
 
+            <Button href='https://github.com/ctrl-Sebastian/HrExtras' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
 
           </CardBody>
           <Card.Footer>
@@ -120,8 +129,12 @@ function ReactSection() {
           </Card.Footer>
 
         </Card>
-
+        
+        
       </div>
+
+      <Button variant='link' id='vermas' href='https://github.com/ctrl-Sebastian'>Ver mas</Button>
+
     </section>
   )
 }

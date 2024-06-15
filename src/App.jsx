@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Container id='container-main'>
+      <Container id='container-main' className='container-main'>
         <ReactSection />
         <GameDev />
         <Modeling />
