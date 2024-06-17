@@ -1,0 +1,66 @@
+.section-contact-me{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-contact-me #yo{
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+}
+
+#yo:hover{
+    cursor: pointer;
+    filter:brightness(0.8);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+form input,textarea {
+    background-color: var(--darkerBg);
+    color: var(--text);
+    border: 2px var(--text);
+
+    padding: 10px;
+}
+
+form button{
+    margin: 25px;
+    background-color: var(--darkerBg);
+    color: var(--text);
+    border: 2px var(--text) solid;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 24px;
+}
+
+form button:hover{
+    background-color: var(--secondary);
+    color: var(--darkerBg);
+    border: 2px black solid;
+
+}
+
+@media screen and (max-width: 400px){
+    .section-contact-me #yo{
+        width: 200px;
+        height: 200px;
+    }
+    form{
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    form button{
+        margin-top: 10px;
+    }
+}

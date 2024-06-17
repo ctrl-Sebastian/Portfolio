@@ -1,13 +1,13 @@
 #container-main{
-    padding-left: 200px;
+    /*padding-left: 200px;*/
     margin-top: 100px;
 }
 
 
 #vermas{
     margin: 25px;
-    color: black;
-    border: 2px black solid;
+    color: var(--text);
+    border: 2px var(--text) solid;
     text-decoration: none;
     padding-left: 25px;
     padding-right: 25px;
@@ -16,6 +16,8 @@
 
 #vermas:hover{
     background-color: var(--secondary);
+    color: var(--darkerBg);
+    border: 2px black solid;
 
 }
 

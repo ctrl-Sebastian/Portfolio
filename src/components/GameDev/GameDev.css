@@ -13,8 +13,54 @@
 }
 
 #carousel-gamedev .carousel-item iframe{
+    width: 552px;
+    height: 167px;
     opacity: 1;
     position: absolute;
     top: 35%;
     left: 28%;
+}
+
+#carousel-gamedev .carousel-item button{
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #fa5c5c;
+}
+
+@media screen and (max-width: 1000px){
+    #carousel-gamedev .carousel-item iframe{
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    #carousel-gamedev .carousel-item iframe{
+        left: 15%;
+
+    }
+}
+@media screen and (max-width: 764px){
+    #carousel-gamedev .carousel-item iframe{
+        left: 5%;
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #carousel-gamedev img{
+        height: 300px;
+    }
+    #carousel-gamedev .carousel-item iframe{
+        display: none;
+    }
+
+    #carousel-gamedev .carousel-item button{
+        opacity: 1;
+    }
 }

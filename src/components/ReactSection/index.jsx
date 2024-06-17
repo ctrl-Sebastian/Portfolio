@@ -107,29 +107,32 @@ function ReactSection() {
 
         </Card>
 
-        <Card id='card'>
-          <CardImg src={HrExtras}></CardImg>
-          <CardBody>
-            <Card.Title>Calc. Horas Extras</Card.Title>
+        {
+          /*
+          <Card id='card'>
+            <CardImg src={HrExtras}></CardImg>
+            <CardBody>
+              <Card.Title>Calc. Horas Extras</Card.Title>
 
-            <Card.Text>
-              Pequeña calculadora hecha con python y Tkinter para negocio.
-            </Card.Text>
+              <Card.Text>
+                Pequeña calculadora hecha con python y Tkinter para negocio.
+              </Card.Text>
 
-            <Button href='https://github.com/ctrl-Sebastian/HrExtras' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+              <Button href='https://github.com/ctrl-Sebastian/HrExtras' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
 
-          </CardBody>
-          <Card.Footer>
-            <Badge bg='dark'>
-              <FontAwesomeIcon icon="fa-brands fa-python" size='md' color='yellow'/>
-            </Badge>
-            <Badge bg='dark'>
-              Tkinter
-            </Badge>
-          </Card.Footer>
+            </CardBody>
+            <Card.Footer>
+              <Badge bg='dark'>
+                <FontAwesomeIcon icon="fa-brands fa-python" size='md' color='yellow'/>
+              </Badge>
+              <Badge bg='dark'>
+                Tkinter
+              </Badge>
+            </Card.Footer>
 
-        </Card>
-        
+          </Card>
+          */
+        }        
         
       </div>
 

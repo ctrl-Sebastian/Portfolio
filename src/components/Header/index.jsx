@@ -1,13 +1,11 @@
 import './Header.css'
+import {Link} from 'react-router-dom'
 
 function Header() {
   return (
       <div className='header'>
-          
         <div className='tab home'>
-        <a href='#hero'>
           <p>Home</p>
-        </a>
         </div>
 
         <div className='tab webapps'>
