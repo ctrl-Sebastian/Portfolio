@@ -47,7 +47,7 @@ form button:hover{
     background-color: var(--secondary);
     color: var(--darkerBg);
     border: 2px black solid;
-
+    cursor: pointer;
 }
 
 @media screen and (max-width: 400px){
