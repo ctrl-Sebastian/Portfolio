@@ -29,11 +29,12 @@ function Experience() {
 
           <TimelineContent>
             <Card>
+              <Card.Header>Apolo 27</Card.Header>
               <Card.Body>
                 <Card.Title>
-                  Experience Title
+                  Telemetry Assistant
                 </Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Software</Card.Subtitle>
                 
                 <Card.Text>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error temporibus laborum consequatur explicabo id aliquid voluptatem! Iusto, eius facere perferendis, nobis error maiores numquam ducimus totam veniam fugiat nisi dolorem?
@@ -46,7 +47,7 @@ function Experience() {
         
         <TimelineItem>
           <TimelineOppositeContent color="var(--text)">
-            10:00 am
+            2022 - 2023
           </TimelineOppositeContent>
 
           <TimelineSeparator>
@@ -54,8 +55,57 @@ function Experience() {
             <TimelineConnector />
           </TimelineSeparator>
 
-          <TimelineContent>Code</TimelineContent>
+          <TimelineContent>
+            <Card>
+              <Card.Header>
+                Cincinnatus Institute of Craftsmanship
+              </Card.Header>
+              <Card.Body>
+                <Card.Title>
+                  Software Developer Student
+                </Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                
+                <Card.Text>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error temporibus laborum consequatur explicabo id aliquid voluptatem! Iusto, eius facere perferendis, nobis error maiores numquam ducimus totam veniam fugiat nisi dolorem?
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </TimelineContent>
+
         </TimelineItem>
+
+
+        
+        <TimelineItem>
+
+          <TimelineOppositeContent color="var(--text)">
+            2022
+          </TimelineOppositeContent>
+
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+
+          <TimelineContent>
+            <Card>
+            <Card.Header>Bioingenious Smart Solutions</Card.Header>
+              <Card.Body>
+                <Card.Title>
+                  Odoo Developer
+                </Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                
+                <Card.Text>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error temporibus laborum consequatur explicabo id aliquid voluptatem! Iusto, eius facere perferendis, nobis error maiores numquam ducimus totam veniam fugiat nisi dolorem?
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </TimelineContent>
+
+        </TimelineItem>
+      
     </Timeline>
     </section>
   )
