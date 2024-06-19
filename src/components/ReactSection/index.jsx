@@ -3,19 +3,66 @@ import {Button, Card, CardBody, CardImg, Badge } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import MongoDB from '../../imgs/icons/MongoDB.svg'
 import apolowebsite from '../../imgs/websites/apolowebsite.png'
-import hospitalwebsite from '../../imgs/websites/hospital.jpeg'
-import alurageekwebsite from '../../imgs/websites/alurageekwebsite.jpeg'
+import hospitalwebsite from '../../imgs/websites/hospital.jpg'
+import alurageekwebsite from '../../imgs/websites/alurageekwebsite.jpg'
 import apreciacionwebsite from '../../imgs/websites/apreciacionwebsite.png'
-import HrExtras from '../../imgs/websites/HrExtras.png'
 
 
 import './ReactSection.css'
 
 function ReactSection() {
+
+  const projects = [
+    {
+      img: apolowebsite,
+      title: "Apolo27's Official  Website",
+      description: "Página oficial del equipo Apolo 27 para el NASA HERC 2024.",
+      pageUrl: "https://www.apolo27.com/",
+      tech: [
+        "react"
+      ]
+    },
+    {
+      img: hospitalwebsite,
+      title: "Hospital Management Web App",
+      description: "Aplicación Web simple para gestionar hospital. (CRUD)",
+      pageUrl: "https://github.com/ctrl-Sebastian/Hospital",
+      tech: [
+        "react",
+
+      ]
+    },
+    {
+      img: alurageekwebsite,
+      title: "Alura Geek Online Store",
+      description: "Página Web de E-Commerce. (CRUD)",
+      pageUrl: "https://alura-geek-weld.vercel.app/",
+      githubUrl: "https://github.com/ctrl-Sebastian/AluraGeek-E-Commerce-",
+      tech: [
+        "react",
+        ""
+
+      ]
+    },
+    {
+      img: apreciacionwebsite,
+      title: "Arts Appreciation portfolio",
+      description: "Página web para publicar bitácora sobre temas de apreciación de las artes.",
+      pageUrl: "https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/",
+      githubUrl: "https://github.com/ctrl-Sebastian/Apreciacion-de-las-artes-1",
+      tech: [
+        "html5",
+        "css",
+        "javascript"
+
+      ]
+    }
+  ]
   return (
     <section id='webapps' className='section-react'>
       <h1>Web & App Projets</h1>
       <div className='react-project-list'>
+        
         <Card id='card'>
           <CardImg src={apolowebsite}></CardImg>
           <CardBody>
@@ -35,7 +82,7 @@ function ReactSection() {
         <Card id='card'>
           <CardImg src={hospitalwebsite}></CardImg>
           <CardBody>
-            <Card.Title>Hospital Management Web App</Card.Title>
+            <Card.Title>Hospital Web App</Card.Title>
             <Card.Text>
               Aplicación Web simple para gestionar hospital. (CRUD)
             </Card.Text>
@@ -75,9 +122,6 @@ function ReactSection() {
           </Card.Footer>
         </Card>
 
-
-        
-        
         <Card id='card'>
           <CardImg src={apreciacionwebsite}></CardImg>
           <CardBody>
@@ -105,35 +149,8 @@ function ReactSection() {
               </Badge>
             </Card.Footer>
 
-        </Card>
-
-        {
-          /*
-          <Card id='card'>
-            <CardImg src={HrExtras}></CardImg>
-            <CardBody>
-              <Card.Title>Calc. Horas Extras</Card.Title>
-
-              <Card.Text>
-                Pequeña calculadora hecha con python y Tkinter para negocio.
-              </Card.Text>
-
-              <Button href='https://github.com/ctrl-Sebastian/HrExtras' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
-
-            </CardBody>
-            <Card.Footer>
-              <Badge bg='dark'>
-                <FontAwesomeIcon icon="fa-brands fa-python" size='md' color='yellow'/>
-              </Badge>
-              <Badge bg='dark'>
-                Tkinter
-              </Badge>
-            </Card.Footer>
-
-          </Card>
-          */
-        }        
-        
+        </Card> 
+      
       </div>
 
       <Button variant='link' id='vermas' href='https://github.com/ctrl-Sebastian'>Ver mas</Button>
@@ -143,3 +160,31 @@ function ReactSection() {
 }
 
 export default ReactSection
+
+{/*
+          projects.map((project, i) => {
+            return(
+              <Card id='card' data-bs-theme="dark" key={i}>
+                <CardImg src={project.img}></CardImg>
+                <Card.Body>
+                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Text>{project.description}</Card.Text>
+                </Card.Body>
+                <Card.Footer className='card-footer'>
+                  {
+                    project.tech.map((tech, i) => {
+                      return(
+                        <FontAwesomeIcon 
+                          key={i} 
+                          size='2xl'
+                          style={{marginLeft: 15, marginRight: 15, color: 'var(--secondary)'}}
+                          icon={`fa-brands fa-${tech}`}
+                        />
+                      )
+                    })
+                  }
+                </Card.Footer>
+              </Card>
+            )
+          })
+        */}

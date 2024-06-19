@@ -1,3 +1,12 @@
 .MuiTimelineContent-root .card{
     font-family: "Rowdies", sans-serif;
+    color: var(--text   );
+}
+
+.MuiTimelineContent-root .card .card-header{
+    color: var(--secondary)
+}
+
+.MuiTimelineContent-root .card ul{
+    list-style:disc;
 }
