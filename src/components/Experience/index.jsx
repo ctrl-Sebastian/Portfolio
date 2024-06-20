@@ -27,7 +27,7 @@ function Experience() {
       tech: [
         "react",
         "unity",
-        "arduino"
+        //"arduino"
         ]
     },
     {
@@ -38,7 +38,7 @@ function Experience() {
       tech: [
         "python",
         "react",
-        "mongodb",
+        //"mongodb",
         "unity",
         ]
     },
@@ -52,15 +52,15 @@ function Experience() {
         "Diseño de informes y facturas para la empresa"
       ],
       tech: [
-        "odoo",
+        //"odoo",
         "python",
-        "office"
+        //"office"
         ]
     }
   ]
   
   return (
-    <section id='modeling' className='section-react'>
+    <section className='section-react'>
       <h1>Experience</h1>
       <Timeline position="alternate">
         {
@@ -84,14 +84,11 @@ function Experience() {
                       <Card.Title>
                         {exp.puesto}
                       </Card.Title>
-                      
-                      <Card.Text>
-                        <ul>
-                          {exp.descripcion.map((desc, i)=> {
-                            return <li key={i}>{desc}</li>
-                          })}
-                        </ul>
-                      </Card.Text>
+                      <ul>
+                        {exp.descripcion.map((desc, i)=> {
+                          return <li key={i}>{desc}</li>
+                        })}
+                      </ul>
                     </Card.Body>
 
                     <Card.Footer className='card-footer'>

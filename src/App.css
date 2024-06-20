@@ -3,6 +3,17 @@
     margin-top: 100px;
 }
 
+#container-main section {
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  
+    scroll-padding-top: 200px;
+    scroll-padding-bottom: 200px;
+
+    margin-top: 100px;
+  }
+  
 
 #vermas{
     margin: 25px;

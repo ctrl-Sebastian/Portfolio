@@ -35,25 +35,6 @@ body {
   overflow-x: hidden;
 }
 
-section{
-
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-
-  scroll-padding-top: 200px;
-  scroll-padding-bottom: 200px;
-  
-  /*
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-  */
-}
-
-#container-main section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 
 
 @keyframes appear {

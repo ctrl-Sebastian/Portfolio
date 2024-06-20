@@ -14,8 +14,8 @@ function GameDevSection() {
     <h1>Game Dev projects</h1>
     <Carousel fade id='carousel-gamedev'>
       <Carousel.Item>
-        <img src={roversimulation}></img>
-        <iframe title='Rover Simulation' src="https://itch.io/embed/2319119?linkback=true&amp;dark=true" 
+        <img alt='portada del juego nasa herc simulation' src={roversimulation}></img>
+        <iframe title='NASA HERC Simulation' src="https://itch.io/embed/2319119?linkback=true&amp;dark=true" 
          
         >
         <a href="https://ctrl-sebastian.itch.io/rover-simulation">NASA HERC Simulation by ctrl-Sebastian</a></iframe>        
@@ -25,7 +25,7 @@ function GameDevSection() {
 
 
       <Carousel.Item>
-        <img src={ratspotting}></img>
+        <img alt='portada del juego Rat Spotting' src={ratspotting}></img>
         <iframe title='Rat Spotting' src="https://itch.io/embed/2739808?border_width=2&amp;dark=true" 
          
         >
@@ -35,7 +35,7 @@ function GameDevSection() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img src={palmonte}></img>
+        <img alt='portada del juego Palmonte' src={palmonte}></img>
         <iframe title='Palmonte' src="https://itch.io/embed/2200102?dark=true" 
          
         >
@@ -44,7 +44,7 @@ function GameDevSection() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img src={flappybee}></img>
+        <img alt='portada del Juego Flappy Bee' src={flappybee}></img>
         <iframe title='Flappy Bee' src="https://itch.io/embed/2168157?linkback=true&amp;dark=true" 
          
         >
@@ -54,7 +54,7 @@ function GameDevSection() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img src={polaritypanic}></img>
+        <img alt='portada del juego polarity panic' src={polaritypanic}></img>
         <iframe title='Polarity Panic' src="https://itch.io/embed/2324479?linkback=true&amp;dark=true" 
          
         >

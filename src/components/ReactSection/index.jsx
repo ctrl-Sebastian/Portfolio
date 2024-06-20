@@ -64,7 +64,7 @@ function ReactSection() {
       <div className='react-project-list'>
         
         <Card id='card'>
-          <CardImg src={apolowebsite}></CardImg>
+          <CardImg alt='portada apolo website' src={apolowebsite}></CardImg>
           <CardBody>
             <Card.Title>Apolo27&apos;s Official Website</Card.Title>
             <Card.Text>
@@ -80,7 +80,7 @@ function ReactSection() {
         </Card>
 
         <Card id='card'>
-          <CardImg src={hospitalwebsite}></CardImg>
+          <CardImg alt='portada hospital website' src={hospitalwebsite}></CardImg>
           <CardBody>
             <Card.Title>Hospital Web App</Card.Title>
             <Card.Text>
@@ -94,13 +94,13 @@ function ReactSection() {
               <FontAwesomeIcon icon="fa-brands fa-react"/>  React
             </Badge>
             <Badge bg='dark'>
-              <img src={MongoDB} width={75}></img>
+              <img alt='mongoDB icon' src={MongoDB} width={75}></img>
             </Badge>
           </Card.Footer>
         </Card>
 
         <Card id='card'>
-          <CardImg src={alurageekwebsite}></CardImg>
+          <CardImg alt='portada alurageek website' src={alurageekwebsite}></CardImg>
           <CardBody>
             <Card.Title>Alura Geek Online Store</Card.Title>
             <Card.Text>
@@ -108,7 +108,7 @@ function ReactSection() {
             </Card.Text>
 
             <div  className='project-buttons'>
-
+            
             <Button href='https://alura-geek-weld.vercel.app/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
             <Button href='https://github.com/ctrl-Sebastian/AluraGeek-E-Commerce-' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
             </div>
@@ -123,7 +123,7 @@ function ReactSection() {
         </Card>
 
         <Card id='card'>
-          <CardImg src={apreciacionwebsite}></CardImg>
+          <CardImg alt='portada apreciacion website' src={apreciacionwebsite}></CardImg>
           <CardBody>
             <Card.Title>Arts Appreciation portfolio</Card.Title>
 
@@ -139,13 +139,13 @@ function ReactSection() {
             </CardBody>
             <Card.Footer>
               <Badge bg='danger'>
-                <FontAwesomeIcon icon="fa-brands fa-html5" size='md'/>
+                <FontAwesomeIcon icon="fa-brands fa-html5" />
               </Badge>
               <Badge>
-                <FontAwesomeIcon icon="fa-brands fa-css3-alt" size='md'/>
+                <FontAwesomeIcon icon="fa-brands fa-css3-alt" />
               </Badge>
               <Badge bg='dark'>
-                <FontAwesomeIcon icon="fa-brands fa-js" size='md' color='yellow'/>
+                <FontAwesomeIcon icon="fa-brands fa-js"  color='yellow'/>
               </Badge>
             </Card.Footer>
 
@@ -160,31 +160,3 @@ function ReactSection() {
 }
 
 export default ReactSection
-
-{/*
-          projects.map((project, i) => {
-            return(
-              <Card id='card' data-bs-theme="dark" key={i}>
-                <CardImg src={project.img}></CardImg>
-                <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
-                  <Card.Text>{project.description}</Card.Text>
-                </Card.Body>
-                <Card.Footer className='card-footer'>
-                  {
-                    project.tech.map((tech, i) => {
-                      return(
-                        <FontAwesomeIcon 
-                          key={i} 
-                          size='2xl'
-                          style={{marginLeft: 15, marginRight: 15, color: 'var(--secondary)'}}
-                          icon={`fa-brands fa-${tech}`}
-                        />
-                      )
-                    })
-                  }
-                </Card.Footer>
-              </Card>
-            )
-          })
-        */}
