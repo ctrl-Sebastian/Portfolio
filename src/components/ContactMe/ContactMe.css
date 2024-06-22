@@ -50,12 +50,12 @@ form button:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 400px){
-    .section-contact-me #yo{
-        width: 200px;
-        height: 200px;
+@media screen and (max-width: 500px){
+    #yo{
+        width: 100px;
+        height: 100px;
     }
-    form{
+    .emailForm{
         margin-top: 10px;
         width: 80%;
     }
