@@ -18,15 +18,27 @@
 #card{
 
     color: var(--text);
-    width: 350px;
+    width: 300px;
     text-align: left;
 }
 #card:hover{
     scale: 1.05;
     transform: translateY(-10px);
-    cursor: pointer;
+
 }
 
+#card .btn{
+    color: var(--text);
+    border: 2px var(--text) solid;
+    text-decoration: none;
+}
+
+#card .btn:hover{
+    background-color: var(--secondary);
+    color: var(--darkerBg);
+    border: 2px black solid;
+    transform: scale(1.15);
+}
 #card .card-text{
     color: var(--secondary);
 }
@@ -54,5 +66,10 @@
 }
 
 @media screen and (max-width: 500px){
+    #card{
 
+        color: var(--text);
+        width: 350px;
+        text-align: left;
+    }
 }

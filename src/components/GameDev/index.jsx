@@ -8,10 +8,11 @@ import ratspotting from "../../imgs/gamedev/ratspotting.png";
 import roversimulation from "../../imgs/gamedev/roversimulation.png";
 
 
-function GameDevSection() {
+function GameDevSection(props) {
+  let t = props.t;
   return (
     <section id='gamedev' className='section-react'>
-    <h1>Game Dev projects</h1>
+    <h1>{t("gamedev")}</h1>
     <Carousel fade id='carousel-gamedev'>
       <Carousel.Item>
         <img alt='portada del juego nasa herc simulation' src={roversimulation}></img>
@@ -63,7 +64,7 @@ function GameDevSection() {
 
       </Carousel.Item>
     </Carousel>
-    <Button variant='link' id='vermas' href='https://ctrl-sebastian.itch.io/'>Ver mas</Button>
+    <Button variant='link' id='vermas' href='https://ctrl-sebastian.itch.io/'>{t("ver-mas")}</Button>
 
   </section>
   )

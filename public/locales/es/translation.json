@@ -1,24 +1,45 @@
 {
-    "hero": {
-        "roles": "Desarrollador React | Desarrollador en Unity"
-        
-    },
-    "webbapps": {
-        "apolo":{
-            "titulo": "Página oficial de Apolo 27",
-            "desc": "Página oficial del equipo Apolo 27 para el NASA HERC 2024."
-        },
-        "hospital":{
-            "titulo": "",
-            "desc": ""
-        },
-        "alurageek":{
-            "titulo": "",
-            "desc": ""
-        },
-        "apreciacion":{
-            "titulo": "",
-            "desc": ""
-        }
-    }
+    "roles": "Desarrollador React | Desarrollador en Unity",
+
+    "experiencias": "Experiencias",
+    "apolo-puesto": "Asistente de Telemetría",
+    "apolo-rol1": "Trabajé en un equipo ágil junto a ingenieros de software para crear la página web oficial del equipo 2024 de Apolo 27.",
+    "apolo-rol2": "A parte, trabajé creando una simulación interactiva del NASA Human Exploration Rover Challenge.",
+
+    "bss-puesto": "Desarrollador Odoo pasante",
+    "bss-rol1": "Cree aplicaciones Odoo con un equipo de TI.",
+    "bss-rol2": "Diseño y desarrollo de la página web de la empresa.",
+    "bss-rol3": "Diseño de informes y facturas para la empresa.",
+    
+    "cinci-puesto": "Estudiante de desarrollo de software",
+    "cinci-rol1": "Estudié creando multiples aplicaciones web aplicando CRUD con Python-flask-sqlite3 y React-MongoDB.",
+
+    "webapps": "Aplicaciones Web y Proyectos",
+    "apolo-titulo": "Página oficial de Apolo 27",
+    "apolo-desc": "Página oficial del equipo Apolo 27 para el NASA HERC 2024.",
+    
+    "hospital-titulo": "Applciación Web para Hospital",
+    "hospital-desc": "Aplicación Web simple para gestionar hospital. (CRUD)",
+    
+    "alurageek-titulo": "Tienda Online Alura Geek",
+    "alurageek-desc": "Página Web de E-Commerce. (CRUD)",
+    
+    "apreciacion-titulo": "Bitácora de apreciación de las artes",
+    "apreciacion-desc": "Página web para publicar bitácora sobre temas de apreciación de las artes.",
+    
+    "gamedev": "Desarrollo de Videojuegos y simulaciones interactivas",
+
+    "modelado": "Modelado 3D",
+
+    "contactme": "Contáctame",
+    "tu-nombre": "Tu Nombre",
+    "tu-email": "Tu Email",
+    "tu-mensaje": "Tu Mensaje",
+
+    "enviar": "Enviar",
+
+
+    "visitar": "Visitar",
+    "ver-mas": "Ver más"
+    
 }

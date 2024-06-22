@@ -14,15 +14,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
-function Experience() {
+function Experience(props) {
+  let t = props.t;
   const experiencias =[
     {
       empresa: "Apolo 27",
       anos: "2023 - 2024",
-      puesto: "Telemetry Assistant",
+      puesto: t("apolo-puesto"),
       descripcion: [
-        "Trabajé en un equipo ágil junto a ingenieros de software para crear la página web oficial del equipo 2024 de Apolo 27.", 
-        "A parte, trabajé creando una simulación interactiva del NASA Human Exploration Rover Challenge."
+        t("apolo-rol1"),
+        t("apolo-rol2")
       ],
       tech: [
         "react",
@@ -33,8 +34,10 @@ function Experience() {
     {
       empresa: "Cincinnatus Institute of Craftsmanship",
       anos: "2022 - 2023",
-      puesto: "Software Development Student",
-      descripcion: ["Estudié creando multiples aplicaciones web aplicando CRUD con Python-flask-sqlite3 y React-MongoDB."],
+      puesto: t("cinci-puesto"),
+      descripcion: [
+        t("cinci-rol1")
+      ],
       tech: [
         "python",
         "react",
@@ -45,11 +48,11 @@ function Experience() {
     {
       empresa: "Bioingenious Smart Solutions",
       anos: "2022",
-      puesto: "Odoo Developer intern",
+      puesto: t("bss-puesto"),
       descripcion: [
-        "Cree aplicaciones Odoo con un equipo de TI.",
-        "Diseño y desarrollo de la página web de la empresa.",
-        "Diseño de informes y facturas para la empresa"
+        t("bss-rol1"),
+        t("bss-rol2"),
+        t("bss-rol3"),
       ],
       tech: [
         //"odoo",
@@ -61,7 +64,7 @@ function Experience() {
   
   return (
     <section className='section-react'>
-      <h1>Experience</h1>
+      <h1>{t("experiencias")}</h1>
       <Timeline position="alternate">
         {
           experiencias.map((exp, i) => {

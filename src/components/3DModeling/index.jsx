@@ -2,10 +2,11 @@ import './Modeling.css'
 import { Masonry } from '@mui/lab';
 import {Button} from 'react-bootstrap'
 
-function ModelingSection() {
+function ModelingSection(props) {
+  let t = props.t;
   return (
     <section id='modeling' className='section-react'>
-      <h1>3D Modeling</h1>
+      <h1>{t("modelado")}</h1>
       <div className='models-list'>
         <Masonry columns={{ xs: 1, sm: 2, md: 3 }}>
         <div className="sketchfab-embed-wrapper"> 
@@ -58,7 +59,7 @@ function ModelingSection() {
         </div>
         </Masonry>
 
-      <Button variant='link' id='vermas' href='https://sketchfab.com/sebastianMMS'>Ver mas</Button>
+      <Button variant='link' id='vermas' href='https://sketchfab.com/sebastianMMS'>{t("ver-mas")}</Button>
       </div>
     </section>
   )

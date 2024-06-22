@@ -6,15 +6,14 @@ import LI from '../../imgs/icons/LI.svg'
 import sketchfab from '../../imgs/icons/sketchfab.svg'
 import downarrow from '../../imgs/icons/downarrow.svg'
 
-import {useTranslation} from "react-i18next"
 
-function Hero() {
-  const {t} = useTranslation()
+function Hero(props) {
+  let t = props.t;
   return (
     <section id='hero' className='hero-bg'>
         <div>
             <h1>Sebastian De Leon</h1>
-            <h2>{t("hero.roles")}</h2>
+            <h2>{t("roles")}</h2>
         </div>
         <div className='socials'>
           <a href="https://www.linkedin.com/in/sebastian-manuel-marrera-santos-919517196/"><img alt='Linkedin' src={LI} width={100}></img></a>

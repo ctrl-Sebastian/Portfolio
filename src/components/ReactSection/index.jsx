@@ -6,18 +6,20 @@ import apolowebsite from '../../imgs/websites/apolowebsite.png'
 import hospitalwebsite from '../../imgs/websites/hospital.jpg'
 import alurageekwebsite from '../../imgs/websites/alurageekwebsite.jpg'
 import apreciacionwebsite from '../../imgs/websites/apreciacionwebsite.png'
-import {useTranslation} from "react-i18next"
 
 
 import './ReactSection.css'
 
-function ReactSection() {
+function ReactSection(props) {
 
-  const {t} = useTranslation()
+  let t = props.t
+
+
+  {/*
   const projects = [
     {
       img: apolowebsite,
-      title: "Apolo27's Official  Website",
+      title: "Página oficial de Apolo 27",
       description: "Página oficial del equipo Apolo 27 para el NASA HERC 2024.",
       pageUrl: "https://www.apolo27.com/",
       tech: [
@@ -60,19 +62,21 @@ function ReactSection() {
       ]
     }
   ]
+  */}
+
   return (
     <section id='webapps' className='section-react'>
-      <h1>Web & App Projets</h1>
+      <h1>{t("webapps")}</h1>
       <div className='react-project-list'>
-        
+
         <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada apolo website' src={apolowebsite}></CardImg>
           <CardBody>
-            <Card.Title>Apolo27&apos;s Official Website</Card.Title>
+            <Card.Title>{t("apolo-titulo")}</Card.Title>
             <Card.Text>
-              Página oficial del equipo Apolo 27 para el NASA HERC 2024.
+              {t("apolo-desc")}
             </Card.Text>
-            <Button href='https://www.apolo27.com/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
+            <Button href='https://www.apolo27.com/' variant='link'><FontAwesomeIcon icon="fa-solid fa-globe" /> {t("visitar")}</Button>
           </CardBody>
           <Card.Footer className='card-footer'>
             <Badge>
@@ -84,11 +88,11 @@ function ReactSection() {
         <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada hospital website' src={hospitalwebsite}></CardImg>
           <CardBody>
-            <Card.Title>Hospital Web App</Card.Title>
+            <Card.Title>{t("hospital-titulo")}</Card.Title>
             <Card.Text>
-              Aplicación Web simple para gestionar hospital. (CRUD)
+            {t("hospital-desc")}
             </Card.Text>
-            <Button href='https://github.com/ctrl-Sebastian/Hospital' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://github.com/ctrl-Sebastian/Hospital' variant='link'><FontAwesomeIcon icon="fa-brands fa-github" /> {t("visitar")}</Button>
           </CardBody>
 
           <Card.Footer>
@@ -104,15 +108,15 @@ function ReactSection() {
         <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada alurageek website' src={alurageekwebsite}></CardImg>
           <CardBody>
-            <Card.Title>Alura Geek Online Store</Card.Title>
+            <Card.Title>{t("alurageek-titulo")}</Card.Title>
             <Card.Text>
-              Página Web de E-Commerce. (CRUD)
+            {t("alurageek-desc")}
             </Card.Text>
 
             <div  className='project-buttons'>
             
-            <Button href='https://alura-geek-weld.vercel.app/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
-            <Button href='https://github.com/ctrl-Sebastian/AluraGeek-E-Commerce-' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+            <Button href='https://alura-geek-weld.vercel.app/' variant='link'><FontAwesomeIcon icon="fa-solid fa-globe" /> {t("visitar")}</Button>
+            <Button href='https://github.com/ctrl-Sebastian/AluraGeek-E-Commerce-' variant='link'><FontAwesomeIcon icon="fa-brands fa-github" /> {t("visitar")}</Button>
             </div>
 
           </CardBody>
@@ -127,15 +131,15 @@ function ReactSection() {
         <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada apreciacion website' src={apreciacionwebsite}></CardImg>
           <CardBody>
-            <Card.Title>Arts Appreciation portfolio</Card.Title>
+            <Card.Title>{t("apreciacion-titulo")}</Card.Title>
 
             <Card.Text>
-              Página web para publicar bitácora sobre temas de apreciación de las artes.
+            {t("apreciacion-desc")}
             </Card.Text>
 
             <div className='project-buttons'>
-              <Button href='https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/' variant='dark'><FontAwesomeIcon icon="fa-solid fa-globe" /> Visitar</Button>
-              <Button href='https://github.com/ctrl-Sebastian/Apreciacion-de-las-artes-1' variant='dark'><FontAwesomeIcon icon="fa-brands fa-github" /> Visitar</Button>
+              <Button href='https://ctrl-sebastian.github.io/Apreciacion-de-las-artes-1/' variant='link'><FontAwesomeIcon icon="fa-solid fa-globe" /> {t("visitar")}</Button>
+              <Button href='https://github.com/ctrl-Sebastian/Apreciacion-de-las-artes-1' variant='link'><FontAwesomeIcon icon="fa-brands fa-github" /> {t("visitar")}</Button>
             </div>
 
             </CardBody>
@@ -155,7 +159,7 @@ function ReactSection() {
       
       </div>
 
-      <Button variant='link' id='vermas' href='https://github.com/ctrl-Sebastian'>Ver mas</Button>
+      <Button variant='link' id='vermas' href='https://github.com/ctrl-Sebastian'>{t("ver-mas")}</Button>
 
     </section>
   )
