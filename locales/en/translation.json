@@ -1,0 +1,45 @@
+{
+    "roles": "React Developer | Unity Developer",
+
+    "experiencias": "Experiences",
+    "apolo-puesto": "Telemetry Assistant",
+    "apolo-rol1": "I worked in an agile team alongside software engineers to create the official website of the Apollo 27 2024 team.",
+    "apolo-rol2": "In addition, I worked creating an interactive simulation of the NASA Human Exploration Rover Challenge.",
+
+    "bss-puesto": "Odoo Developer intern",
+    "bss-rol1": "Create Odoo applications with an IT team.",
+    "bss-rol2": "Design and development of the company's website.",
+    "bss-rol3": "Design of reports and invoices for the company.",
+    
+    "cinci-puesto": "Software Development Student",
+    "cinci-rol1": "I studied creating multiple web applications applying CRUD with Python-flask-sqlite3 and React-MongoDB.",
+
+
+    "webapps": "Web Apps & Projects",
+    "apolo-titulo": "Apolo 27's Official Website",
+    "apolo-desc": "Apolo 27's Official Website for the 2024 NASA HERC.",
+    
+    "hospital-titulo": "Hospital Web App",
+    "hospital-desc": "Simple Web Application to manage a hospital. (CRUD)",
+    
+    "alurageek-titulo": "Alura Geek Online Store",
+    "alurageek-desc": "E-Commerce Web App. (CRUD)",
+    
+    "apreciacion-titulo": "Arts Appreciation portfolio",
+    "apreciacion-desc": "Website to publish blogs on topics of appreciation of the arts.",
+
+    "gamedev": "Game & Interactive Simulations Development",
+
+    "modelado": "3D Modeling",
+
+    "contactme": "Contact Me",
+    "tu-nombre": "Your Name",
+    "tu-email": "Your Email",
+    "tu-mensaje": "Your Message",
+
+    "enviar": "Send",
+
+
+    "visitar": "Visit",
+    "ver-mas": "See more"
+}
