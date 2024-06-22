@@ -63,7 +63,7 @@ function ReactSection() {
       <h1>Web & App Projets</h1>
       <div className='react-project-list'>
         
-        <Card id='card'>
+        <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada apolo website' src={apolowebsite}></CardImg>
           <CardBody>
             <Card.Title>Apolo27&apos;s Official Website</Card.Title>
@@ -79,7 +79,7 @@ function ReactSection() {
           </Card.Footer>
         </Card>
 
-        <Card id='card'>
+        <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada hospital website' src={hospitalwebsite}></CardImg>
           <CardBody>
             <Card.Title>Hospital Web App</Card.Title>
@@ -99,7 +99,7 @@ function ReactSection() {
           </Card.Footer>
         </Card>
 
-        <Card id='card'>
+        <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada alurageek website' src={alurageekwebsite}></CardImg>
           <CardBody>
             <Card.Title>Alura Geek Online Store</Card.Title>
@@ -122,7 +122,7 @@ function ReactSection() {
           </Card.Footer>
         </Card>
 
-        <Card id='card'>
+        <Card id='card' data-bs-theme="dark">
           <CardImg alt='portada apreciacion website' src={apreciacionwebsite}></CardImg>
           <CardBody>
             <Card.Title>Arts Appreciation portfolio</Card.Title>

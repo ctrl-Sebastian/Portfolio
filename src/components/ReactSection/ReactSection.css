@@ -10,14 +10,15 @@
 .react-project-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 20px;
     margin-bottom: 25px;
     
 }
 #card{
-    background-color: var(--cardBg);
+
     color: var(--text);
-    width: 300px;
+    width: 350px;
     text-align: left;
 }
 #card:hover{
@@ -38,7 +39,6 @@
 }
 
 #card  .card-footer{
-    background-color: var(--cardTitleBg);
     text-align: left;
     display: flex;
     justify-content: space-evenly;

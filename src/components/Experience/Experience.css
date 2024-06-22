@@ -1,3 +1,8 @@
+.MuiTimelineOppositeContent-root h5{
+    font-family: "Rowdies", sans-serif;
+
+}
+
 .MuiTimelineContent-root .card{
     font-family: "Rowdies", sans-serif;
     color: var(--text   );
@@ -9,4 +14,29 @@
 
 .MuiTimelineContent-root .card ul{
     list-style:disc;
+}
+
+@media screen and (max-width: 1000px){
+    .MuiTimeline-root{
+        position: left;
+    }
+    .MuiTimelineItem-root {
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .MuiTimelineOppositeContent-root{
+        position: absolute;
+        top: -25px;
+    }
+    .MuiTimelineOppositeContent-root h5{
+        font-weight: 600;
+    }
+    .MuiTimelineItem-root .MuiTimelineSeparator-root{
+        display: none;
+    }
+    
+    .MuiTimelineContent-root{
+        width: 100%;
+    }
 }

@@ -68,7 +68,7 @@ function Experience() {
             return(
               <TimelineItem key={i}>
                 <TimelineOppositeContent color="var(--text)">
-                  {exp.anos}
+                  <h5>  {exp.anos}</h5>
                 </TimelineOppositeContent>
       
                 <TimelineSeparator>
@@ -96,7 +96,7 @@ function Experience() {
                         return(
                           <FontAwesomeIcon 
                               key={i} 
-                              size='2xl'
+                              size='xl'
                               style={{marginLeft: 15, marginRight: 15, color: 'var(--secondary)'}}
                               icon={`fa-brands fa-${tech}`}
                           />
