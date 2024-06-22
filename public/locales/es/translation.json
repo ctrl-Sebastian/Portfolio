@@ -2,6 +2,23 @@
     "hero": {
         "roles": "Desarrollador React | Desarrollador en Unity"
         
+    },
+    "webbapps": {
+        "apolo":{
+            "titulo": "Página oficial de Apolo 27",
+            "desc": "Página oficial del equipo Apolo 27 para el NASA HERC 2024."
+        },
+        "hospital":{
+            "titulo": "",
+            "desc": ""
+        },
+        "alurageek":{
+            "titulo": "",
+            "desc": ""
+        },
+        "apreciacion":{
+            "titulo": "",
+            "desc": ""
+        }
     }
-
 }

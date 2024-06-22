@@ -6,12 +6,14 @@ import apolowebsite from '../../imgs/websites/apolowebsite.png'
 import hospitalwebsite from '../../imgs/websites/hospital.jpg'
 import alurageekwebsite from '../../imgs/websites/alurageekwebsite.jpg'
 import apreciacionwebsite from '../../imgs/websites/apreciacionwebsite.png'
+import {useTranslation} from "react-i18next"
 
 
 import './ReactSection.css'
 
 function ReactSection() {
 
+  const {t} = useTranslation()
   const projects = [
     {
       img: apolowebsite,
