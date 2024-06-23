@@ -15,13 +15,14 @@ import Modeling from './components/3DModeling'
 import SelectLanguage from './components/SelectLanguage/'
 
 import {useTranslation} from "react-i18next"
-
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   const {t} = useTranslation()
   return (
     <>
       {/*<Header />*/}
+      <Analytics />
       <SelectLanguage />
       <Hero t={t}/>
       <Container id='container-main' className='container-main'>
