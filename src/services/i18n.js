@@ -11,7 +11,7 @@ i18next
     supportedLngs: ['es', 'en'],
     fallbackLng: "es",
     backend: {
-      loadPath: '/locales/{{lng}}/translation.json'
+      loadPath: '/Portfolio/locales/{{lng}}/translation.json'
     },
     react: {useSuspense: false},
     detection:{

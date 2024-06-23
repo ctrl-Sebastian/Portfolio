@@ -9,11 +9,15 @@
     width: 300px;
     height: 300px;
     border-radius: 25%;
+    margin-bottom: 10px;
 }
 
 #yo:hover{
     cursor: pointer;
     filter:brightness(0.8);
+}
+
+.section-contact-me .fotoEmail{
 }
 
 form{
@@ -44,11 +48,13 @@ form button{
 }
 
 form button:hover{
-    background-color: var(--secondary);
+    background-color: var(--text);
     color: var(--darkerBg);
     border: 2px black solid;
     cursor: pointer;
 }
+
+
 
 @media screen and (max-width: 500px){
     #yo{

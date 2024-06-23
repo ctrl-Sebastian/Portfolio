@@ -2,7 +2,7 @@ import './ContactMe.css'
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import yo from '../../imgs/SebastianMarrera.jpg'
-
+import { Card } from 'react-bootstrap';
 
 function ContactMeSection(props) {
   let t = props.t;
@@ -43,8 +43,15 @@ function ContactMeSection(props) {
     <section>
       <h1>{t("contactme")}</h1>
       <div className='section-contact-me'>
-        <a href='#hero'><img id='yo' src={yo} alt='Imagen del desarrollador Sebastian De Leon'></img></a>
-
+        <div className='fotoEmail'>
+          <a href='#hero'><img id='yo' src={yo} alt='Imagen del desarrollador Sebastian De Leon'></img></a>
+          <Card data-bs-theme="dark">
+            <Card.Header>Email</Card.Header>
+            <Card.Body>
+              <Card.Text><a>sebastianipl0131@gmail.com</a></Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
         <form onSubmit={handleSubmit} className='emailForm'>
         <input
           type="text"
