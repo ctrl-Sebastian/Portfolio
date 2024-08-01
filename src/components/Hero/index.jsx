@@ -16,7 +16,7 @@ function Hero(props) {
             <h2>{t("roles")}</h2>
         </div>
         <div className='socials'>
-          <a href="https://www.linkedin.com/in/sebastian-manuel-marrera-santos-919517196/"><img alt='Linkedin' src={LI} width={100}></img></a>
+          <a href="https://www.linkedin.com/in/sebastian-manuel-de-leon-santos-919517196/"><img alt='Linkedin' src={LI} width={100}></img></a>
           <a href="https://ctrl-sebastian.itch.io/"><img alt='itchio' src={itchio} width={100}></img></a>
           <a href="https://github.com/ctrl-Sebastian"><img alt='github' src={github} width={100}></img></a>
           <a href="https://www.instagram.com/seb.devs/"><img alt='instagram' src={Instagram} width={100}></img></a>
